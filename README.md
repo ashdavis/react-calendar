@@ -8,6 +8,11 @@
 A calendar built using React that shows all dates in a month in a grid and allows changing the date by using dropdowns for selecting a month and year.
 
 
+## Demo
+
+A demo of the app can be found [here](https://react-calendar-app.netlify.com/)
+
+
 ## Project Features
 
 - View built using React
