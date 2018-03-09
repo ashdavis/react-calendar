@@ -49,7 +49,6 @@ The build is minified and the filenames include the hashes.<br>
 
 ## Technology Used
 
-What are the primary languages used for this project? Is there a framework in place? E.G.
 - [React](https://reactjs.org)
 - [Moment](http://momentjs.com/)
 - [React Router](https://reacttraining.com/react-router/)
