@@ -21,6 +21,28 @@ A calendar built using React that shows all dates in a month in a grid and allow
 - URL updates when moving between dates
 - Props down, events up data flow
 
+## Sudo Code
+
+### Calculate days for a month (including overflow days)
+
+1. Get a month and year
+2. Calculate the date for the start of the month
+3. Calculate the date for start of the first week (ISO) of the month
+4. Calculate the date for the end of the month
+5. Calculate the date for the end of the last week (ISO) of the month
+
+6. Create an array to store Day elements
+7. Start with the date for start of the first week (ISO) of the month
+8. Create a Day element for this date, with the day number for the month
+9. Check whether date is in current month
+    - If date is within the current month, style as normal day
+    - If date is not within the current month, style as an overflow day
+10. Add the Day element to the array of days
+11. Increment the date by one day
+12. Check whether the incremented date is equal to the date for the end of the last week (ISO) of the month plus one day
+    - If the dates match, exit and set the array of days to component state
+    - If the dates don't match, return to step 8 with incremented date.
+
 
 ## How to Use
 
