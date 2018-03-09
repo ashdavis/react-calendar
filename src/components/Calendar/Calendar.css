@@ -1,0 +1,7 @@
+.calendar {
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 490px;
+  padding: 20px;
+  margin: 20px auto;
+}

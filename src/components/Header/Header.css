@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 450px;
+  text-align: center;
+}

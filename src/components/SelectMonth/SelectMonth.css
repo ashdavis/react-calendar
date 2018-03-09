@@ -1,0 +1,9 @@
+.select-month {
+  margin: 0 10px;
+  height: 30px;
+  background: white;
+  font-size: 16px;
+  border: 1px solid lightgrey;
+  border-radius: 0;
+  cursor: pointer;
+}
